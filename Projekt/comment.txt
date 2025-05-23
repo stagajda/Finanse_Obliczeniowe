@@ -1,0 +1,4 @@
+Dla danych z zadania 3, dzięki użyciu zmiennych antytetycznych przy tej samej liczbie symulacji udało się uzyskać 40% mniejszy przedział ufności.
+Aby Vt nie spadało poniżej zera, ograniczam wartość V na zerze - zawarłem w kodzie linijkę: V = max(V, 0)
+Na danych zawartych w zadaniu 5 na 100 000 symulacji uzyskałem średnią: 35.18. co jest bliskie poprawnej wycenie opcji. 
+Poprawna wycena mieści się w 95% przedziale ufności
